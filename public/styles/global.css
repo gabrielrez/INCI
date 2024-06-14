@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn-trabalhe-conosco {
+  background-color: #0C228F;
+  padding: 10px 16px;
+  color: #F0F1F7;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.btn-entrar {
+  padding: 10px 16px;
+  background-color: #FFCD85;
+  color: #646466;
+  border-radius: 4px;
+  text-decoration: none;
+}
