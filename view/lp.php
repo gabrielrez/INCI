@@ -13,12 +13,12 @@
     <div class="header">
       <nav class="nav-menu">
         <img src="../public/img/Frame 94.png" alt="Logo INCI">
-        <a href="#">Nossos Serviços</a>
-        <a href="#">Quem somos?</a>
-        <a href="#">Nosso time</a>
+        <a href="./hub.php">Nossos Serviços</a>
+        <a href="./hub.php">Quem somos?</a>
+        <a href="./hub.php">Nosso time</a>
       </nav>
       <div class="btns-menu">
-        <a href="#" class="btn-trabalhe-conosco">Trabalhe conosco</a>
+        <a href="./hub.php" class="btn-trabalhe-conosco">Trabalhe conosco</a>
         <a href="./hub.php" class="btn-entrar">Entrar</a>
       </div>
     </div>
