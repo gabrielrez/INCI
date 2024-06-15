@@ -22,13 +22,13 @@
 <br>
 
 <h3>Javascript</h3>
-<h4>fetchPlataformas</h4>
+<h4>fetchPlataformas()</h4>
 <ul>
   <li>Descrição: Função assíncrona que busca dados das plataformas a partir da API</li>
   <li>Retorno: Dados das plataformas em formato JSON</li>
 </ul>
 
-<h4>displayPlataformas</h4>
+<h4>displayPlataforma()</h4>
 <ul>
   <li>Descrição: Função que exibe as plataformas na página HTML</li>
   <h5>Parâmetros</h5>
@@ -43,13 +43,13 @@
   </ul>
 </ul>
 
-<h4>fetchFerramentas</h4>
+<h4>fetchFerramentas()</h4>
 <ul>
   <li>Descrição: Função assíncrona que busca dados das ferramentas a partir de uma API</li>
   <li>Retorno: Dados das ferramentas em formato JSON</li>
 </ul>
 
-<h4>displayFerramentas</h4>
+<h4>displayFerramentas()</h4>
 <ul>
   <li>Descrição: Função que exibe as ferramentas na página HTML</li>
   <h5>Parâmetros</h5>
