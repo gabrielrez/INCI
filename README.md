@@ -40,3 +40,24 @@
     <li>Itera sobre o array de plataformas, criando elementos HTML para cada uma e inserindo-os no container</li>
   </ul>
 </ul>
+
+<h4>fetchFerramentas</h4>
+<ul>
+  <li>Descrição: Função assíncrona que busca dados das ferramentas a partir de uma API</li>
+  <li>Retorno: Dados das ferramentas em formato JSON</li>
+</ul>
+
+<h4>displayFerramentas</h4>
+<ul>
+  <li>Descrição: Função que exibe as ferramentas na página HTML</li>
+  <h5>Parâmetros</h5>
+  <ul>
+    <li>ferramentas: Array de objetos contendo os dados das ferramentas</li>
+  </ul>
+   <h5>Funcionamento</h5>
+  <ul>
+    <li>Seleciona o container com a classe .ferramentas-container</li>
+    <li>Limpa o conteúdo do container</li>
+    <li>Itera sobre o array de ferramentas, criando elementos HTML para cada uma e inserindo-os no container</li>
+  </ul>
+</ul>
