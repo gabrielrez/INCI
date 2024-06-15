@@ -18,8 +18,10 @@
 </ul>
 
 <br>
+<hr>
+<br>
 
-<h3>Javscript</h3>
+<h3>Javascript</h3>
 <h4>fetchPlataformas</h4>
 <ul>
   <li>Descrição: Função assíncrona que busca dados das plataformas a partir da API</li>
