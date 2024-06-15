@@ -1,0 +1,86 @@
+@import url('../global.css');
+
+.header-container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid #D7D7D9;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.form-container {
+  background-color: #ffffff;
+  padding: 32px;
+  border-radius: 16px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+  display: flex;
+}
+
+.header-form {
+  margin-bottom: 16px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #D7D7D9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  text-align: left;
+  margin-bottom: 5px;
+  color: #333333;
+}
+
+input {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #dddddd;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+.submit-text,
+.input a,
+.submit a {
+  font-size: 0.75rem;
+}
+
+.submit-text {
+  text-align: left;
+}
+
+.submit {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.submit button {
+  width: 100%;
+  padding: 16px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #DBE1FF;
+  color: #FFF;
+  border-radius: 8px;
+}

@@ -59,6 +59,7 @@
         <a href="#">
           <li><img src="../public/img/campaign.svg" alt=""></li>
         </a>
+        <span></span>
         <a href="#">
           <li><img src="../public/img/_settings_.svg" alt=""></li>
         </a>
