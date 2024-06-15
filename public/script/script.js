@@ -55,17 +55,10 @@ function displayFerramentas(ferramentas) {
 document.addEventListener('DOMContentLoaded', async () => {
   try {
       const plataformas = await fetchPlataformas();
-      displayPlataformas(plataformas);
-  } catch(error) {
-      console.log('Erro ao exibir plataformas: ', error);
-  }
-});
-
-document.addEventListener('DOMContentLoaded', async () => {
-  try {
       const ferramentas = await fetchFerramentas();
+      displayPlataformas(plataformas);
       displayFerramentas(ferramentas);
   } catch(error) {
-      console.log('Erro ao exibir ferramentas: ', error);
+      console.log('Erro : ', error);
   }
 });

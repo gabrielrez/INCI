@@ -44,7 +44,6 @@ $app->get('/plataformas', function (Request $request, Response $response, array 
   ];
   $response->getBody()->write(json_encode($plataformas));
   return $response->withHeader("Content-type", "application/json");
-  return $response;
 });
 
 $app->get('/ferramentas', function (Request $request, Response $response, array $args) {
@@ -72,7 +71,6 @@ $app->get('/ferramentas', function (Request $request, Response $response, array 
   ];
   $response->getBody()->write(json_encode($ferramentas));
   return $response->withHeader("Content-type", "application/json");
-  return $response;
 });
 
 $app->run();
