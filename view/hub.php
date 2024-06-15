@@ -31,40 +31,39 @@
   <main class="main-container">
     <div class="sidebar">
       <ul class="sidebar-menu">
+        <button class="expand-btn"><img src="../public/img/btn_lateral_open.png" alt=""></button>
         <a href="#">
-          <li><img src="../public/img/_home_.svg" alt=""></li>
+          <li><img src="../public/img/_home_.svg"><span class="menu-text --c1">Início</span></li>
         </a>
         <a href="#">
-          <li><img src="../public/img/_group_.svg" alt=""></li>
+          <li><img src="../public/img/_group_.svg"><span class="menu-text --c1">Alunos</span></li>
         </a>
         <a href="#">
-          <li><img src="../public/img/_monetization_on_.svg" alt=""></li>
+          <li><img src="../public/img/_monetization_on_.svg"><span class="menu-text --c1">Pagamentos</span></li>
         </a>
         <a href="#">
-          <li><img src="../public/img/_low_density_.svg" alt=""></li>
+          <li><img src="../public/img/_low_density_.svg"><span class="menu-text --c1">Cursos</span></li>
         </a>
         <a href="#">
-          <li><img src="../public/img/_help_.svg" alt=""></li>
+          <li><img src="../public/img/_help_.svg"><span class="menu-text --c1">Central de Ajuda</span></li>
         </a>
         <a href="#">
-          <li><img src="../public/img/_premium_.svg" alt=""></li>
-        </a>
-        <span></span>
-        <a href="#">
-          <li><img src="../public/img/_ladder_.svg" alt=""></li>
+          <li><img src="../public/img/_premium_.svg"><span class="menu-text --c1">Certificado impresso</span></li>
         </a>
         <a href="#">
-          <li><img src="../public/img/_analytics_.svg" alt=""></li>
+          <li><img src="../public/img/_ladder_.svg"><span class="menu-text --c1">Recursos</span></li>
         </a>
         <a href="#">
-          <li><img src="../public/img/campaign.svg" alt=""></li>
-        </a>
-        <span></span>
-        <a href="#">
-          <li><img src="../public/img/_settings_.svg" alt=""></li>
+          <li><img src="../public/img/_analytics_.svg"><span class="menu-text --c1">Analytcs</span></li>
         </a>
         <a href="#">
-          <li><img src="../public/img/_mode_off_on_.svg" alt=""></li>
+          <li><img src="../public/img/campaign.svg"><span class="menu-text --c1">Whats Push</span></li>
+        </a>
+        <a href="#">
+          <li><img src="../public/img/_settings_.svg"><span class="menu-text --c1">Configuração</span></li>
+        </a>
+        <a href="#">
+          <li><img src="../public/img/_mode_off_on_.svg"><span class="menu-text --c1">Sair</span></li>
         </a>
       </ul>
     </div>
@@ -82,6 +81,7 @@
 
 </body>
 
-<script src="../public/script/script.js"></script>
+<script src="../public/script/fetchItens.js"></script>
+<script src="../public/script/sidebar.js"></script>
 
 </html>
