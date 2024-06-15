@@ -45,7 +45,7 @@
 
 <h4>fetchFerramentas()</h4>
 <ul>
-  <li>Descrição: Função assíncrona que busca dados das ferramentas a partir de uma API</li>
+  <li>Descrição: Função assíncrona que busca dados das ferramentas a partir da API</li>
   <li>Retorno: Dados das ferramentas em formato JSON</li>
 </ul>
 
