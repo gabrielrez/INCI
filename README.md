@@ -1,7 +1,7 @@
 <h3>API</h3>
 <h4>Geral</h4>
 <ul>
-  <li>Framework: Slim PHP</li>
+  <li>Framework: Slim PHP (comando para rodar a API 'php -S localhost:8080 -t public')</li>
   <li>Rotas Disponíveis: '/plataformas', '/ferramentas'</li>
   <li>Formato de Resposta: JSON</li>
 </ul>
