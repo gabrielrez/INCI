@@ -45,6 +45,11 @@
         </div>
       </form>
     </form>
+    <div class="more-info">
+      <a href="#">Ajuda</a>
+      <a href="#">Privacidade</a>
+      <a href="#">Termos</a>
+    </div>
   </main>
 </body>
 

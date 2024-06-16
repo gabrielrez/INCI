@@ -10,6 +10,7 @@
 
 main {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-top: 60px;
@@ -20,10 +21,21 @@ main {
   background-color: #ffffff;
   padding: 32px;
   border-radius: 16px;
-  box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
   max-width: 400px;
   width: 100%;
   display: flex;
+}
+
+.more-info {
+  margin-top: 32px;
+  display: flex;
+  gap: 40px;
+}
+
+.more-info a {
+  font-size: 0.75rem;
+  color: #656566;
 }
 
 .header-form {
