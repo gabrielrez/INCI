@@ -33,6 +33,16 @@ body {
   gap: 8px;
 }
 
+.input-menu {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.input-menu img {
+  cursor: pointer;
+}
+
 .main-container {
   display: flex;
   max-width: 1200px;
@@ -47,7 +57,7 @@ body {
   background-color: #FFF;
   padding: 16px;
   position: fixed;
-  top: 80px;
+  top: 75px;
   left: 0;
   z-index: 100;
   transition: width 0.2s ease;
@@ -147,8 +157,8 @@ body {
 }
 
 .item img {
-  max-width: 64px;
-  max-height: 64px;
+  width: auto;
+  height: 64px;
 }
 
 .item h3 {

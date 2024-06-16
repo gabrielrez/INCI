@@ -5,6 +5,10 @@
   font-family: "Rethink Sans", sans-serif;
 }
 
+body {
+  background-color: #FCFDFF;
+}
+
 button {
   border: none;
   cursor: pointer;

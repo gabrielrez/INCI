@@ -1,5 +1,11 @@
 @import url('../global.css');
 
+html,
+body {
+  height: 100%;
+  overflow-y: hidden;
+}
+
 .header-container {
   padding: 20px;
   max-width: 1200px;
@@ -30,7 +36,7 @@
 
 .main-container {
   padding: 20px;
-  margin-top: 80px;
+  margin-top: 32px;
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
@@ -47,6 +53,11 @@
   color: #0C228F;
   margin-top: 32px;
   font-size: 3.5rem;
+  font-weight: bold;
+}
+
+.bold-detail {
+  font-weight: bolder;
 }
 
 .main-text {
@@ -57,6 +68,7 @@
 
 .input-email {
   margin-top: 16px;
+  margin-bottom: 32px;
 }
 
 .input-email input {
@@ -65,4 +77,15 @@
   border-radius: 8px;
   border: 1px solid #ccc;
   padding: 8px;
+}
+
+.extra {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 45vw;
+  height: 90vh;
+  background-color: #2F50EE;
+  z-index: -100;
+  border-radius: 0px 0px 0px 16px;
 }

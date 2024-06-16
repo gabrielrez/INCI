@@ -17,13 +17,14 @@
       <nav class="nav-menu">
         <a href="../view/lp.php"><img src="../public/img/_INCI_.png" alt="Logo INCI"></a>
         <!-- <p class="--c0">Suas funções mais utilizadas:</p> -->
-        <a href="#" class="--c0">Analytcs</a>
+        <a href="#" class="--c0">Analytics</a>
         <a href="#" class="--c0">Cursos</a>
         <a href="#" class="--c0">Alunos</a>
         <a href="#" class="--c0">Pagamentos</a>
       </nav>
       <div class="input-menu">
         <input type="text" placeholder="Pesquisar">
+        <img src="../public/img/avatar_2.png">
       </div>
     </div>
   </header>
@@ -67,6 +68,7 @@
         </a>
       </ul>
     </div>
+
     <div class="main-content">
       <div class="main">
         <h2 id="plataformas" class="plataformas-title cBase01">Nossas plataformas</h2>

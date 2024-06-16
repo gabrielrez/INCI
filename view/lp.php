@@ -12,6 +12,9 @@
 </head>
 
 <body>
+  <div class="extra">
+  </div>
+
   <header class="header-container">
     <div class="header">
       <nav class="nav-menu">
@@ -30,12 +33,13 @@
   <main class="main-container">
     <div class="main">
       <div class="content">
-        <h1 class="main-title bold">Preparando Pessoas <br> para o Futuro</h1>
+        <h1 class="main-title bold">Preparando Pessoas <br> <span class="bold-detail">para o Futuro</span></h1>
         <p class="main-text regular">Soluções educacionais para a formação e desenvolvimento <br> de pessoas e instituições.</p>
         <div class="input-email">
           <input type="email" placeholder="seuemail@gmail.com">
           <button class="btn-trabalhe-conosco">Entrar em contato</button>
         </div>
+        <img src="../public/img/Frame 63.png">
       </div>
       <img src="../public/img/main-img.png" alt="main image">
     </div>
