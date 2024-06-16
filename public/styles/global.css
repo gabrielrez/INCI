@@ -29,6 +29,12 @@ li {
   color: #F0F1F7;
   text-decoration: none;
   border-radius: 8px;
+  transition: 0.2s ease;
+}
+
+.btn-trabalhe-conosco:hover {
+  background-color: #F0F0F2;
+  color: #858586;
 }
 
 .btn-entrar {
@@ -37,6 +43,12 @@ li {
   color: #646466;
   border-radius: 8px;
   text-decoration: none;
+  transition: 0.2s ease;
+}
+
+.btn-entrar:hover {
+  background-color: #ffebd0;
+  color: #858586;
 }
 
 .bold {
