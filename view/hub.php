@@ -15,7 +15,9 @@
   <header class="header-container">
     <div class="header">
       <nav class="nav-menu">
-        <a href="../view/lp.php"><img src="../public/img/_INCI_.png" alt="Logo INCI"></a>
+        <div class="header-logo">
+          <a href="../view/lp.php"><img src="../public/img/_INCI_.png" alt="Logo INCI"></a>
+        </div>
         <!-- <p class="--c0">Suas funções mais utilizadas:</p> -->
         <a href="#" class="--c0">Analytics</a>
         <a href="#" class="--c0">Cursos</a>

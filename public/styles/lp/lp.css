@@ -25,6 +25,10 @@ body {
   gap: 16px;
 }
 
+.header-logo {
+  margin-right: 32px;
+}
+
 .nav-menu a {
   color: #646466;
 }
@@ -88,4 +92,39 @@ body {
   background-color: #2F50EE;
   z-index: -100;
   border-radius: 0px 0px 0px 16px;
+}
+
+@media (max-width: 1000px) {
+
+  .main-img,
+  .extra {
+    display: none;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .nav-menu>a {
+    display: none;
+  }
+}
+
+@media(max-width: 500px) {
+  .input-email input {
+    width: 200px;
+  }
+
+  .btns-menu a {
+    font-size: 0.75rem;
+  }
+}
+
+@media(max-width: 500px) {
+  .input-email input {
+    width: 150px;
+  }
 }

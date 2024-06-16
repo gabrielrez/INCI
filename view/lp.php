@@ -18,7 +18,9 @@
   <header class="header-container">
     <div class="header">
       <nav class="nav-menu">
-        <a href="../view/lp.php"><img src="../public/img/Frame 94.png" alt="Logo INCI"></a>
+        <div class="header-logo">
+          <a href="../view/lp.php"><img src="../public/img/Frame 94.png" alt="Logo INCI"></a>
+        </div>
         <a href="./login.php">Nossos Serviços</a>
         <a href="./login.php">Quem somos?</a>
         <a href="./login.php">Nosso time</a>
@@ -41,7 +43,7 @@
         </div>
         <img src="../public/img/Frame 63.png">
       </div>
-      <img src="../public/img/main-img.png" alt="main image">
+      <img class="main-img" src="../public/img/main-img.png" alt="main image">
     </div>
   </main>
 </body>
